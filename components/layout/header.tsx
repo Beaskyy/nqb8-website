@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -13,8 +13,8 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/[0.06] bg-black/80 backdrop-blur-xl">
-      <Container className="flex h-[72px] items-center justify-between gap-4">
+    <header className="sticky top-0 z-50 bg-[#090A0B] border-b border-[#333B40B2] bg-black/80 backdrop-blur-xl">
+      <Container className="flex items-center justify-between gap-4  lg:h-[93px] h-[72px]">
         <Link
           href="/"
           className="shrink-0 transition-opacity hover:opacity-80"
@@ -24,14 +24,14 @@ export function Header() {
         </Link>
 
         <nav
-          className="hidden items-center gap-7 lg:flex"
+          className="hidden items-center gap-6 lg:flex"
           aria-label="Main navigation"
         >
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-[14px] font-medium text-white/60 transition-colors hover:text-white"
+              className="text-[13px] font-medium text-[#8F999E] transition-colors hover:text-white"
             >
               {link.label}
             </Link>
@@ -41,7 +41,7 @@ export function Header() {
         <div className="hidden shrink-0 lg:block">
           <Link
             href="#contact"
-            className="inline-flex h-10 items-center justify-center rounded-full bg-[#0A84FF] px-6 text-[14px] font-medium text-black transition-all hover:bg-[#0A84FF]/90 active:scale-[0.98]"
+            className="inline-flex h-10 items-center justify-center rounded-full bg-[#0A89FF] px-5 py-3.5 text-[14px] text-[#060708] font-medium text-black transition-all hover:bg-[#0A84FF]/90 active:scale-[0.98]"
           >
             Partner with Us
           </Link>
@@ -87,7 +87,7 @@ export function Header() {
               <Link
                 href="#contact"
                 className={cn(
-                  "mt-4 inline-flex h-11 items-center justify-center rounded-full bg-[#0A84FF] text-[15px] font-medium text-black"
+                  "mt-4 inline-flex h-11 items-center justify-center rounded-full bg-[#0A89FF] text-sm text-[#060708] font-medium text-black"
                 )}
                 onClick={() => setMobileOpen(false)}
               >
