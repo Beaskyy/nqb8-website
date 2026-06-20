@@ -10,12 +10,12 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-black pb-16 pt-20 lg:pb-24 lg:pt-32 min-h-screen flex items-center">
       {/* Background wrapper */}
-      <div className="absolute inset-0 lg:left-auto lg:right-0 lg:w-[75%]">
+      <div className="absolute inset-0 lg:left-auto lg:right-0 lg:w-[83%]">
         <Image
           src="/images/globe.png"
           alt="Hero background"
           fill
-          className="object-cover object-center lg:object-left"
+          className="object-cover object-center lg:object-left "
           priority
           quality={100}
         />
@@ -26,7 +26,7 @@ export function Hero() {
       <Container className="relative z-10">
         <div className="max-w-3xl">
           <FadeInView>
-            <h1 className="text-[44px] font-bold leading-[1.05] tracking-tight text-white sm:text-[56px] lg:text-[72px]">
+            <h1 className="lg:text-[64px] font-bold leading-[1.05] tracking-[-1.2%] text-[#F0F2ED] sm:text-[56px] lg:text-[72px]">
               Digital<br />
               Infrastructure for<br />
               Emerging Markets
@@ -34,14 +34,14 @@ export function Hero() {
           </FadeInView>
 
           <FadeInView delay={0.1}>
-            <p className="mt-6 max-w-[500px] text-[16px] leading-[1.6] text-white/60 sm:text-[18px]">
+            <p className="mt-6 max-w-[435px] text-xl text-[#CCCCCC] leading-[1.6] text-white/60 sm:text-[18px]">
               NQB8 builds platforms powering commerce,
               education, communities, trust, and
               operational systems across African markets.
             </p>
           </FadeInView>
 
-          <FadeInView delay={0.2} className="mt-10 flex flex-wrap gap-4">
+          <FadeInView delay={0.2} className="mt-10 flex flex-wrap gap-3.5">
             <Link
               href="#contact"
               className="inline-flex h-12 items-center justify-center rounded-full bg-[#0A84FF] px-8 text-[15px] font-medium text-black transition-all hover:bg-[#0A84FF]/90 active:scale-[0.98]"

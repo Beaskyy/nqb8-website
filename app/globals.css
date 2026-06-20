@@ -9,7 +9,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-inter);
+  --font-heading: "Mona Sans Variable", sans-serif;
+  --font-space: var(--font-space-grotesk);
   --color-accent: var(--accent-brand);
   --color-accent-bright: var(--accent-bright);
   --color-surface: var(--surface);
@@ -139,5 +140,8 @@
   }
   html {
     @apply font-sans scroll-smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
   }
 }
