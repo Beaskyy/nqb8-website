@@ -27,7 +27,7 @@ export const navLinks = [
   { label: "Ecosystem", href: "#ecosystem" },
   { label: "Products", href: "#products" },
   { label: "Talent", href: "#talent" },
-  { label: "Vision", href: "#vision" },
+  { label: "Vision", href: "/vision" },
   { label: "Insights", href: "#insights" },
   { label: "Contact", href: "#contact" },
 ] as const;
