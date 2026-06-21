@@ -22,21 +22,26 @@ export function Insights() {
           </p>
         </FadeInView>
 
-        <div className="mt-16 grid gap-[22px] lg:grid-cols-3">
+        <div className="mt-16 grid gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
           {insightsItems.map((item, i) => (
             <FadeInView key={item.title} delay={i * 0.1} className="h-full">
               <article
                 className={cn(
-                  "flex flex-col h-full rounded-[18px] shadow-sm bg-[#0E0F11] border border-[#333B408C] p-6 lg:py-7 transition-all duration-300",
-                  "hover:border-accent/25 hover:bg-surface-elevated"
+                  "flex flex-col h-full rounded-[18px] bg-[#060708] border border-[#333B408C] p-6 lg:p-8 transition-all duration-300",
+                  "hover:border-[#0A89FF]/30"
                 )}
               >
-                <h3 className="font-heading text-[23px] tracking-[-0.4%] leading-[130%] font-bold text-[#F0F2ED]">
-                  {item.title}
-                </h3>
-                <div className="mt-auto pt-8">
-                  <p className="text-[11px] font-semibold uppercase tracking-[8%] text-[#8F999E]">
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-[8%] text-[#8F999E] mb-4">
                     {item.category}
+                  </p>
+                  <h3 className="font-heading text-[22px] tracking-[-0.4%] leading-[130%] font-bold text-[#F0F2ED]">
+                    {item.title}
+                  </h3>
+                </div>
+                <div className="mt-auto pt-10">
+                  <p className="text-[13px] text-[#8F999E]">
+                    {item.readTime} · {item.year}
                   </p>
                 </div>
               </article>
