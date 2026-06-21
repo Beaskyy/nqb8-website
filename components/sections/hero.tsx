@@ -26,53 +26,70 @@ export function Hero() {
       <Container className="relative z-10">
         <div className="max-w-3xl">
           <FadeInView>
-            <h1 className="lg:text-[64px] font-bold leading-[1.05] tracking-[-1.2%] text-[#F0F2ED] sm:text-[56px] lg:text-[72px]">
-              Digital<br />
-              Infrastructure for<br />
+            <h1 className="lg:text-[64px] text-4xl font-bold leading-[1.05] tracking-[-1.2%] text-[#F0F2ED] sm:text-[56px] lg:text-[72px]">
+              Digital
+              <br />
+              Infrastructure for
+              <br />
               Emerging Markets
             </h1>
           </FadeInView>
 
           <FadeInView delay={0.1}>
-            <p className="mt-6 max-w-[435px] text-xl text-[#CCCCCC] leading-[1.6] text-white/60 sm:text-[18px]">
-              NQB8 builds platforms powering commerce,
-              education, communities, trust, and
-              operational systems across African markets.
+            <p className="mt-6 max-w-[435px] md:text-xl text-[#CCCCCC] leading-[1.6] ">
+              NQB8 builds platforms powering commerce, education, communities,
+              trust, and operational systems across African markets.
             </p>
           </FadeInView>
 
           <FadeInView delay={0.2} className="mt-10 flex flex-wrap gap-3.5">
             <Link
               href="#contact"
-              className="inline-flex h-12 items-center justify-center rounded-full bg-[#0A84FF] px-8 text-[15px] font-medium text-black transition-all hover:bg-[#0A84FF]/90 active:scale-[0.98]"
+              className="inline-flex h-12 items-center justify-center rounded-full bg-[#0A89FF] px-8 text-sm font-medium text-[#060708] transition-all hover:bg-[#0A89FF]/90 active:scale-[0.98]"
             >
               Partner with Us
             </Link>
             <Link
               href="#ecosystem"
-              className="inline-flex h-12 items-center justify-center rounded-full border border-white/10 bg-[#111] px-8 text-[15px] font-medium text-white transition-colors hover:bg-[#222] hover:border-white/20 active:scale-[0.98]"
+              className="inline-flex h-12 items-center justify-center rounded-full border border-[#333B40BF] bg-[#151619] px-8 text-sm font-medium text-[#F0F2ED] transition-colors hover:bg-[#1D1F23] hover:border-white/20 active:scale-[0.98]"
             >
               Explore Ecosystem
             </Link>
           </FadeInView>
 
           <FadeInView delay={0.25} className="mt-20">
-            <div className="grid grid-cols-2 gap-x-8 gap-y-6 sm:grid-cols-4 lg:gap-x-12">
+            <div className="grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-4">
               <div>
-                <h3 className="text-[13px] font-bold text-white">Founded in 2010</h3>
-                <p className="mt-1 text-[12px] text-white/50">Long-term operating history</p>
+                <h3 className="font-space text-[13px] font-bold text-[#F0F2ED]">
+                  Founded in 2010
+                </h3>
+                <p className="mt-1 text-[11px] text-[#8F999E]">
+                  Long-term operating history
+                </p>
               </div>
               <div>
-                <h3 className="text-[13px] font-bold text-white">Built in Nigeria</h3>
-                <p className="mt-1 text-[12px] text-white/50">Local intelligence</p>
+                <h3 className="font-space text-[13px] font-bold text-[#F0F2ED]">
+                  Built in Nigeria
+                </h3>
+                <p className="mt-1 text-[11px] text-[#8F999E]">
+                  Local intelligence
+                </p>
               </div>
               <div>
-                <h3 className="text-[13px] font-bold text-white">Multiple platforms</h3>
-                <p className="mt-1 text-[12px] text-white/50">Products in market</p>
+                <h3 className="font-space text-[13px] font-bold text-[#F0F2ED]">
+                  Multiple platforms
+                </h3>
+                <p className="mt-1 text-[11px] text-[#8F999E]">
+                  Products in market
+                </p>
               </div>
               <div>
-                <h3 className="text-[13px] font-bold text-white">Infrastructure mindset</h3>
-                <p className="mt-1 text-[12px] text-white/50">Systems that endure</p>
+                <h3 className="font-space text-[13px] font-bold text-[#F0F2ED]">
+                  Infrastructure mindset
+                </h3>
+                <p className="mt-1 text-[11px] text-[#8F999E]">
+                  Systems that endure
+                </p>
               </div>
             </div>
           </FadeInView>

@@ -43,159 +43,159 @@ export const engines = [
   {
     title: "Product Engine",
     description:
-      "We design, build, and scale digital products with infrastructure intent — from payments to platforms that serve millions across emerging markets.",
-    href: "#platforms",
+      "Identifies real problems in African communities, builds technology companies to solve them, then owns and operates the products.",
+    label: "SYSTEMS / PRODUCT",
   },
   {
     title: "Talent Engine",
     description:
-      "We develop technical talent through structured programs, real product work, and an environment where builders grow into leaders who ship systems that last.",
-    href: "#talent",
+      "Brings in interns, NYSC placements, and junior engineers, then trains them on live, real-stakes products.",
+    label: "PEOPLE / BUILDERS",
   },
 ] as const;
 
-export const platforms = [
+export const products = [
   {
-    category: "Dev-ops & Cloud",
-    name: "Grendel",
-    description:
-      "Cloud infrastructure and developer tooling built for teams operating at scale in complex markets.",
-    href: "#",
+    category: "LOGISTICS / COMMERCE",
+    name: "Send24",
+    description: "Movement and commerce support for local logistics networks.",
   },
   {
-    category: "Identity & Data",
-    name: "Personas",
+    category: "ACADEMIC INTELLIGENCE",
+    name: "Passmark",
     description:
-      "Identity and profile infrastructure that powers trusted interactions across digital ecosystems.",
-    href: "#",
+      "Academic infrastructure for learning signals and education workflows.",
   },
   {
-    category: "Social Infrastructure",
-    name: "Social Graph",
-    description:
-      "Relationship and network layers that connect people, products, and communities with purpose.",
-    href: "#",
+    category: "TRUST INFRASTRUCTURE",
+    name: "CandidHeart",
+    description: "Residential operations and community infrastructure.",
   },
   {
-    category: "Payments & Fintech",
-    name: "Baxi",
-    description:
-      "Agent network and payment infrastructure reaching communities across Nigeria and beyond.",
-    href: "#",
+    category: "RESIDENTIAL SYSTEMS",
+    name: "Residify",
+    description: "Residential operations and community infrastructure.",
   },
   {
-    category: "Payments & Fintech",
-    name: "Paystack",
-    description:
-      "Modern payments API enabling businesses to accept and manage transactions seamlessly.",
-    href: "#",
+    category: "OPERATOR SAAS",
+    name: "Co-Ship",
+    description: "Logistics SaaS for operators who move goods.",
   },
 ] as const;
 
-export const impactStats = [
-  { value: "270", label: "Employees" },
-  { value: "274", label: "Cities" },
-  { value: "2751", label: "Partners" },
-  { value: "100M+", label: "Monthly transactions", highlight: true },
+export const companyStory = [
+  {
+    year: "2010",
+    title: "Founded",
+    description: "NQB8 begins as a Nigerian technology company.",
+  },
+  {
+    year: "2014",
+    title: "Crisis",
+    description: "A severe business crisis nearly closes the company.",
+  },
+  {
+    year: "2015+",
+    title: "Rebuild",
+    description: "The team returns with deeper discipline and resilience.",
+  },
+  {
+    year: "Today",
+    title: "Multiple live products",
+    description: "A growing ecosystem of practical infrastructure platforms.",
+  },
 ] as const;
 
 export const whyUsItems = [
   {
-    icon: "calendar",
-    title: "Founded in 2011",
+    icon: "/images/calendar.png",
+    title: "Operating since 2010",
     description:
-      "Over a decade of building technology institutions and platforms with long-term infrastructure thinking.",
+      "Clear execution capacity for partners who need systems that can survive real-world conditions.",
   },
   {
-    icon: "layers",
-    title: "Multi-sector platform scale",
+    icon: "/images/file.png",
+    title: "Real products, not concepts",
     description:
-      "Experience across payments, cloud, identity, and talent — not single-product dependency.",
+      "Clear execution capacity for partners who need systems that can survive real-world conditions.",
   },
   {
-    icon: "target",
-    title: "Key product milestones",
+    icon: "/images/lotus.png",
+    title: "Multi-sector platform depth",
     description:
-      "Products that reached millions of users and defined categories in emerging markets.",
+      "Clear execution capacity for partners who need systems that can survive real-world conditions.",
   },
   {
-    icon: "globe",
-    title: "Emerging market focus",
+    icon: "/images/telescope.png",
+    title: "Long-term operational thinking",
     description:
-      "Deep understanding of the constraints and opportunities in African and global emerging economies.",
+      "Clear execution capacity for partners who need systems that can survive real-world conditions.",
   },
   {
-    icon: "users",
-    title: "Builder-first culture",
+    icon: "/images/id-card.png",
+    title: "African context and local intelligence",
     description:
-      "Teams organized around engineering excellence, product discipline, and operational resilience.",
+      "Clear execution capacity for partners who need systems that can survive real-world conditions.",
   },
   {
-    icon: "shield",
-    title: "Infrastructure mindset",
+    icon: "/images/user-group.png",
+    title: "Builder culture and talent pipeline",
     description:
-      "Every product is designed as a layer others can build on — not an isolated application.",
+      "Clear execution capacity for partners who need systems that can survive real-world conditions.",
   },
 ] as const;
 
-export const learnMoreItems = [
+export const builderCultureItems = [
   {
-    title: "The products",
+    title: "Real products",
     description:
-      "Live platforms and infrastructure layers serving real users across payments, cloud, and identity.",
-    href: "#platforms",
+      "A serious environment for emerging builders to grow through useful systems.",
   },
   {
-    title: "The stories",
+    title: "Real stakes",
     description:
-      "Case studies and narratives from builders who shaped products that changed how markets work.",
-    href: "#news",
+      "A serious environment for emerging builders to grow through useful systems.",
   },
   {
-    title: "The growth environment",
+    title: "Strong growth environment",
     description:
-      "Programs, mentorship, and hands-on product work that develop the next generation of technical leaders.",
-    href: "#talent",
+      "A serious environment for emerging builders to grow through useful systems.",
   },
 ] as const;
 
-export const newsItems = [
+export const insightsItems = [
   {
-    title: "Why infrastructure thinking matters for African fintech",
-    category: "Perspective",
-    date: "Mar 2026",
-    href: "#",
+    title: "The discipline of operating infrastructure in African markets",
+    category: "LOGISTICS",
   },
   {
-    title: "Building talent pipelines that outlast product cycles",
-    category: "Talent",
-    date: "Feb 2026",
-    href: "#",
+    title: "Digital trust as an emerging-market foundation",
+    category: "TECHNOLOGY",
   },
   {
-    title: "Resilience as an operating principle, not a feature",
-    category: "Systems",
-    date: "Jan 2026",
-    href: "#",
+    title: "What product builders learn from real operational constraints",
+    category: "PRODUCTS",
   },
 ] as const;
 
 export const footerColumns = {
   company: [
     { label: "About", href: "#about" },
-    { label: "Team", href: "#" },
-    { label: "Careers", href: "#careers" },
-    { label: "Contact", href: "#contact" },
+    { label: "Vision", href: "#vision" },
+    { label: "Talent", href: "#talent" },
+    { label: "Insights", href: "#insights" },
   ],
   products: [
-    { label: "Grendel", href: "#" },
-    { label: "Personas", href: "#" },
-    { label: "Social Graph", href: "#" },
-    { label: "Fluidity", href: "#" },
+    { label: "Send24", href: "https://send24.co/" },
+    { label: "PassMark", href: "https://passmark.ai/" },
+    { label: "CandidHeart", href: "https://candidheart.com/" },
+    { label: "Residify", href: "#" },
+    { label: "Co-ship", href: "https://coshipp.com/" },
   ],
-  legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Cookie Policy", href: "#" },
+  contact: [
+    { label: "Partner with Us", href: "#partner" },
+    { label: "Careers", href: "#careers" },
+    { label: "LinkedIn", href: "#" },
+    { label: "hello@nqb8.co", href: "mailto:hello@nqb8.co" },
   ],
 } as const;

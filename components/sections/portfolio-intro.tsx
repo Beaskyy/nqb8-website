@@ -8,20 +8,19 @@ export function PortfolioIntro() {
   return (
     <section
       id="portfolio"
-      className="border-y border-white/[0.06] bg-surface py-20 lg:py-[100px]"
+      className="bg-[#0E0F11] py-20 lg:py-[120px]"
     >
       <Container>
         <FadeInView className="max-w-3xl">
-          <SectionLabel>Portfolio</SectionLabel>
-          <h2
-            className="mt-4 text-[28px] font-semibold leading-[1.15] tracking-[-0.02em] text-white sm:text-[36px] lg:text-[40px]"
-          >
+          <SectionLabel className="text-xs font-semibold uppercase tracking-[8%] text-[#0A89FF]">
+            ECOSYSTEM
+          </SectionLabel>
+          <h2 className="font-heading mt-6 text-[44px] font-bold leading-[1.15] tracking-[-1.2%] text-[#F0F2ED] sm:text-10 lg:text-[48px] max-w-[760px]">
             A portfolio of infrastructure layers, not isolated apps.
           </h2>
-          <p className="mt-5 text-[15px] leading-relaxed text-text-secondary sm:text-[16px]">
-            Each platform in the NQB8 portfolio is designed as connective
-            tissue — payment rails, identity layers, cloud tooling, and social
-            infrastructure that compound over time.
+          <p className="mt-8 text-[17px] leading-[150%] text-[#8F999E] sm:text-base max-w-[700px]">
+            Each platform focuses on a practical layer of African market infrastructure: movement,
+            learning, trust, residence, and operator capability.
           </p>
         </FadeInView>
       </Container>

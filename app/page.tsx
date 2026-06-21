@@ -4,12 +4,12 @@ import { Hero } from "@/components/sections/hero";
 import { About } from "@/components/sections/about";
 import { Engines } from "@/components/sections/engines";
 import { PortfolioIntro } from "@/components/sections/portfolio-intro";
-import { Platforms } from "@/components/sections/platforms";
-import { Impact } from "@/components/sections/impact";
+import { Products } from "@/components/sections/products";
+import { CompanyStory } from "@/components/sections/company-story";
 import { WhyUs } from "@/components/sections/why-us";
-import { CaseStudy } from "@/components/sections/case-study";
-import { Talent } from "@/components/sections/talent";
-import { News } from "@/components/sections/news";
+import { Vision } from "@/components/sections/vision";
+import { BuilderCulture } from "@/components/sections/builder-culture";
+import { Insights } from "@/components/sections/insights";
 import { FinalCta } from "@/components/sections/final-cta";
 
 export default function Home() {
@@ -21,12 +21,12 @@ export default function Home() {
         <About />
         <Engines />
         <PortfolioIntro />
-        <Platforms />
-        <Impact />
+        <Products />
+        <CompanyStory />
         <WhyUs />
-        <CaseStudy />
-        <Talent />
-        <News />
+        <Vision />
+        <BuilderCulture />
+        <Insights />
         <FinalCta />
       </main>
       <Footer />
