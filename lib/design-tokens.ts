@@ -28,7 +28,7 @@ export const navLinks = [
   { label: "Products", href: "/products" },
   { label: "Talent", href: "/talent" },
   { label: "Vision", href: "/vision" },
-  { label: "Insights", href: "#insights" },
+  { label: "Insights", href: "/insights" },
   { label: "Contact", href: "/contact" },
 ] as const;
 
@@ -165,16 +165,40 @@ export const builderCultureItems = [
 
 export const insightsItems = [
   {
-    title: "The discipline of operating infrastructure in African markets",
-    category: "LOGISTICS",
+    title: "Building trust systems at scale",
+    category: "ESSAY",
+    readTime: "5 min read",
+    year: "2025",
   },
   {
-    title: "Digital trust as an emerging-market foundation",
-    category: "TECHNOLOGY",
+    title: "The product engine in practice",
+    category: "FIELD NOTE",
+    readTime: "5 min read",
+    year: "2025",
   },
   {
-    title: "What product builders learn from real operational constraints",
-    category: "PRODUCTS",
+    title: "Talent pipelines that ship",
+    category: "PERSPECTIVE",
+    readTime: "5 min read",
+    year: "2025",
+  },
+  {
+    title: "Commerce infrastructure lessons",
+    category: "ESSAY",
+    readTime: "5 min read",
+    year: "2025",
+  },
+  {
+    title: "Operating across African markets",
+    category: "FIELD NOTE",
+    readTime: "5 min read",
+    year: "2025",
+  },
+  {
+    title: "From concept to live platform",
+    category: "PRODUCT",
+    readTime: "5 min read",
+    year: "2025",
   },
 ] as const;
 
