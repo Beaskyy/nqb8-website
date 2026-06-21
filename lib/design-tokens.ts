@@ -26,7 +26,7 @@ export const navLinks = [
   { label: "About", href: "/about" },
   { label: "Ecosystem", href: "#ecosystem" },
   { label: "Products", href: "/products" },
-  { label: "Talent", href: "#talent" },
+  { label: "Talent", href: "/talent" },
   { label: "Vision", href: "/vision" },
   { label: "Insights", href: "#insights" },
   { label: "Contact", href: "/contact" },
