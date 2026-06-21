@@ -23,7 +23,7 @@ export const tokens = {
 } as const;
 
 export const navLinks = [
-  { label: "About", href: "#about" },
+  { label: "About", href: "/about" },
   { label: "Ecosystem", href: "#ecosystem" },
   { label: "Products", href: "#products" },
   { label: "Talent", href: "#talent" },
