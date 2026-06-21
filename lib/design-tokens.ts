@@ -29,7 +29,7 @@ export const navLinks = [
   { label: "Talent", href: "#talent" },
   { label: "Vision", href: "/vision" },
   { label: "Insights", href: "#insights" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/contact" },
 ] as const;
 
 export const heroPillars = [
