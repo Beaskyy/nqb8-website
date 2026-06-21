@@ -1,33 +1,27 @@
 import Link from "next/link";
-import { Logo } from "@/components/icons/logo";
 import { Container } from "@/components/ui/container";
 import { footerColumns } from "@/lib/design-tokens";
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/[0.06] bg-black py-16 lg:py-20">
+    <footer className="bg-[#060708] border-t border-[#333B40B2] py-10 lg:py-[56px]">
       <Container>
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
-          <div className="lg:col-span-1">
-            <Logo />
-            <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-text-secondary">
-              A Nigerian technology institution building digital infrastructure
-              for emerging markets — systems designed to last.
+        <div className="grid gap-[60px] lg:grid-cols-5 lg:gap-[120px]">
+          <div className="flex flex-col col-span-2">
+            <Link href="/" className="text-[32px] font-bold text-[#F0F2ED] tracking-[-0.4px]">
+              NQB8
+            </Link>
+            <p className="mt-4 max-w-[360px] text-[13px] leading-[138%] text-[#8F999E] lg:text-[15px]">
+              A Nigerian digital infrastructure company building platforms and builders for emerging markets.
             </p>
-            <p className="mt-4 text-[13px] leading-relaxed text-text-muted">
-              Lagos, Nigeria
+            <p className="mt-4 text-[13px] font-semibold text-[#0A89FF] lg:text-[14px] hover:underline">
+              Built in Nigeria. Built for emerging markets.
             </p>
           </div>
 
-          <FooterColumn title="Company" links={footerColumns.company} />
-          <FooterColumn title="Products" links={footerColumns.products} />
-          <FooterColumn title="Legal" links={footerColumns.legal} />
-        </div>
-
-        <div className="mt-12 flex flex-col gap-4 border-t border-white/[0.06] pt-8 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-[13px] text-text-muted">
-            © {new Date().getFullYear()} NQB8. All rights reserved.
-          </p>
+          <FooterColumn title="COMPANY" links={footerColumns.company} />
+          <FooterColumn title="PRODUCTS" links={footerColumns.products} />
+          <FooterColumn title="CONTACT" links={footerColumns.contact} />
         </div>
       </Container>
     </footer>
@@ -43,13 +37,13 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h3 className="text-[13px] font-semibold text-white">{title}</h3>
-      <ul className="mt-4 space-y-3">
+      <h3 className="text-sm font-semibold uppercase tracking-[8%] text-[#F0F2ED]">{title}</h3>
+      <ul className="mt-4 space-y-2">
         {links.map((link) => (
           <li key={link.label}>
             <Link
               href={link.href}
-              className="text-[14px] text-text-secondary transition-colors hover:text-white"
+              className="text-sm font-medium text-[#8F999E] leading-[118%] transition-colors hover:text-[#F0F2ED] lg:text-[14px]"
             >
               {link.label}
             </Link>

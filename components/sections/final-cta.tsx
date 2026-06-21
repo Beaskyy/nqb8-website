@@ -8,43 +8,33 @@ export function FinalCta() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-black py-20 lg:py-[120px]"
+      className="bg-[#060708] py-20 lg:py-[112px]"
     >
-      <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_50%,rgba(0,102,255,0.12),transparent)]"
-        aria-hidden="true"
-      />
-
       <Container className="relative text-center">
         <FadeInView>
-          <h2
-            className="text-[28px] font-semibold leading-[1.15] tracking-[-0.02em] text-white sm:text-[36px] lg:text-[40px]"
-          >
-            Let&apos;s build infrastructure that matters.
+          <h2 className="font-heading mx-auto max-w-[760px] text-[44px] font-extrabold leading-[104%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[56px]">
+            Let&apos;s build infrastructure<br className="hidden lg:block" /> that matters.
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-text-secondary sm:text-[16px]">
-            Whether you&apos;re building a platform, investing in emerging
-            markets, or looking to grow as a technical leader — we&apos;d like
-            to hear from you.
+          <p className="mx-auto mt-[30px] max-w-[630px] lg:text-[18px] leading-[150%] text-[#8F999E] sm:text-base ">
+            Partner with NQB8 to build and operate systems designed for real<br className="hidden lg:block" /> communities, serious institutions, and emerging-market scale.
           </p>
         </FadeInView>
 
         <FadeInView
           delay={0.15}
-          className="mt-8 flex flex-wrap items-center justify-center gap-3"
+          className="mt-[30px] flex flex-wrap items-center justify-center gap-[15px]"
         >
           <Link
-            href="mailto:hello@nqb8.com"
-            className="inline-flex h-10 items-center justify-center rounded-lg bg-accent px-6 text-[14px] font-medium text-white transition-all hover:bg-accent-bright active:scale-[0.98]"
+            href="#partner"
+            className="inline-flex h-[45px] items-center justify-center rounded-full bg-[#0A89FF] px-7 text-sm font-semibold text-black transition-all hover:bg-[#0A89FF]/90 active:scale-[0.98]"
           >
-            Get in touch
+            Partner with Us
           </Link>
           <Link
-            href="#careers"
-            id="careers"
-            className="inline-flex h-10 items-center justify-center rounded-lg border border-white/20 px-6 text-[14px] font-medium text-white transition-colors hover:border-white/40 hover:bg-white/[0.04]"
+            href="#platforms"
+            className="inline-flex h-[45px] items-center justify-center rounded-full border border-[#333B40BF] bg-[#151619] px-7 text-sm font-medium text-[#F0F2ED] transition-all hover:bg-[#151619] active:scale-[0.98]"
           >
-            Join the team
+            Explore Platforms
           </Link>
         </FadeInView>
       </Container>
