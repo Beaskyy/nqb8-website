@@ -15,10 +15,10 @@ export function PortfolioIntro() {
           <SectionLabel className="text-xs font-semibold uppercase tracking-[8%] text-[#0A89FF]">
             ECOSYSTEM
           </SectionLabel>
-          <h2 className="font-heading mt-6 text-[44px] font-bold leading-[1.15] tracking-[-1.2%] text-[#F0F2ED] sm:text-10 lg:text-[48px] max-w-[760px]">
+          <h2 className="font-heading mt-6 text-3xl font-bold leading-[1.15] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
             A portfolio of infrastructure layers, not isolated apps.
           </h2>
-          <p className="mt-8 text-[17px] leading-[150%] text-[#8F999E] sm:text-base max-w-[700px]">
+          <p className="mt-6 text-sm leading-[150%] text-[#8F999E] sm:text-base lg:text-[17px] max-w-[700px]">
             Each platform focuses on a practical layer of African market infrastructure: movement,
             learning, trust, residence, and operator capability.
           </p>

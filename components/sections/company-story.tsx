@@ -14,15 +14,15 @@ export function CompanyStory() {
           <SectionLabel className="text-[13px] font-semibold uppercase tracking-[8%] text-[#0A89FF]">
             COMPANY STORY
           </SectionLabel>
-          <h2 className="font-heading mt-6 text-[44px] font-extrabold leading-[130%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
+          <h2 className="font-heading mt-6 text-3xl font-extrabold leading-[130%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
             Resilience is part of the<br className="hidden lg:block" /> operating system.
           </h2>
-          <p className="mt-8 lg:text-[17px] text-sm leading-[150%] text-[#8F999E] sm:text-base max-w-[700px]">
+          <p className="mt-6 text-sm leading-[150%] text-[#8F999E] sm:text-base lg:text-[17px] max-w-[700px]">
             A long-term company story built on persistence, rebuilding, and shipping products that solve real problems.
           </p>
         </FadeInView>
 
-        <div className="mt-16 grid gap-[18px] sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-4 sm:mt-16 sm:grid-cols-2 sm:gap-[18px] lg:grid-cols-4">
           {companyStory.map((item, i) => (
             <FadeInView key={item.year} delay={i * 0.1}>
               <StoryCard item={item} />

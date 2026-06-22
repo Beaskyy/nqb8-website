@@ -25,7 +25,7 @@ export function InsightsHero() {
       <Container className="relative z-10">
         <div className="max-w-3xl">
           <FadeInView>
-            <h1 className="lg:text-[64px] text-4xl font-bold leading-[1.05] tracking-[-1.2%] text-[#F0F2ED] sm:text-[56px] lg:text-[72px]">
+            <h1 className="text-4xl font-bold leading-[1.05] tracking-[-1.2%] text-[#F0F2ED] sm:text-[56px] lg:text-[72px]">
               Field notes from<br />
               the infrastructure<br />
               layer.

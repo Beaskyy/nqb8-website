@@ -24,7 +24,7 @@ export function Article() {
               <span className="text-[11px] font-semibold uppercase tracking-[0.88px] text-[#0A89FF]">
                 PRODUCT
               </span>
-              <h1 className="font-heading mt-[22px] max-w-[580px] text-[40px] font-extrabold leading-[105%] tracking-[-1.2%] text-[#F0F2ED] lg:text-[48px]">
+              <h1 className="font-heading mt-[22px] max-w-[580px] text-3xl font-extrabold leading-[105%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px]">
                 Why infrastructure companies must own the products they build
               </h1>
               
@@ -44,7 +44,7 @@ export function Article() {
           </FadeInView>
 
           <FadeInView delay={0.1}>
-            <div className="relative mt-[22px] h-[532px] w-full overflow-hidden rounded-[18px] border border-[#333B408C] sm:h-[400px] lg:h-[480px]">
+            <div className="relative mt-[22px] h-[240px] w-full overflow-hidden rounded-[18px] border border-[#333B408C] sm:h-[400px] lg:h-[480px]">
               <Image
                 src="/images/article.png"
                 alt="Article hero image"
@@ -56,7 +56,7 @@ export function Article() {
           </FadeInView>
 
           <FadeInView delay={0.2}>
-            <div className="mt-[37px] max-w-[1287px] text-[#8F999E] text-lg space-y-8">
+            <div className="mt-[37px] max-w-[1287px] text-[#8F999E] text-base space-y-6 sm:text-lg sm:space-y-8">
               <p>
                 Infrastructure is not a pitch deck category. It is the discipline of building systems that continue to work when markets shift, teams change, and capital cycles tighten.
               </p>
@@ -72,7 +72,7 @@ export function Article() {
 
               <div className="my-12 w-full max-w-[480px] rounded-[12px] bg-[#0D1114] py-6 px-[22px]">
                 <div className="mb-3.5 h-[1px] w-12 bg-[#0A89FFF2]"></div>
-                <p className="font-heading border-b border-[#20282ECC] pb-6 text-[22px] font-bold leading-[100%] text-[#F0F2ED] sm:text-[22px] !mb-0">
+                <p className="font-heading border-b border-[#20282ECC] pb-6 text-lg font-bold leading-[120%] text-[#F0F2ED] sm:text-[22px] sm:leading-[100%] !mb-0">
                   "We build systems that endure — not demos that expire."
                 </p>
               </div>

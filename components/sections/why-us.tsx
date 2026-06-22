@@ -9,13 +9,13 @@ import Image from "next/image";
 
 export function WhyUs() {
   return (
-    <section className="bg-[#060708] py-20 lg:pt-[102px] pb-[96px]">
+    <section className="bg-[#060708] py-16 lg:pt-[102px] lg:pb-[96px]">
       <Container>
         <FadeInView>
           <SectionLabel className="text-[13px] font-semibold uppercase tracking-[8%] text-[#0A89FF]">
             PARTNERS & INSTITUTIONS
           </SectionLabel>
-          <h2 className="font-heading mt-6 text-[44px] font-extrabold leading-[130%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] max-w-[760px]">
+          <h2 className="font-heading mt-6 text-3xl font-extrabold leading-[130%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] max-w-[760px]">
             Why organizations work<br className="hidden lg:block" /> with NQB8.
           </h2>
           <p className="mt-8 lg:text-[17px] text-sm leading-[150%] text-[#8F999E] sm:text-base max-w-[650px]">
@@ -24,7 +24,7 @@ export function WhyUs() {
           </p>
         </FadeInView>
 
-        <div className="mt-16 grid gap-y-[25px] gap-x-[18px] sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:mt-16 sm:gap-x-[18px] sm:gap-y-[25px] sm:grid-cols-2 lg:grid-cols-3">
           {whyUsItems.map((item, i) => (
             <FadeInView key={item.title} delay={i * 0.08}>
               <article

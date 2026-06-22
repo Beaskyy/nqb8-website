@@ -17,15 +17,15 @@ export function Products() {
           <SectionLabel className="text-[13px] font-semibold uppercase tracking-[8%] text-[#0A89FF]">
             PRODUCTS
           </SectionLabel>
-          <h2 className="font-heading mt-6 text-[44px] font-extrabold leading-[130%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
+          <h2 className="font-heading mt-6 text-3xl font-extrabold leading-[130%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
             Live platforms with infrastructure intent.
           </h2>
-          <p className="mt-8 text-[17px] leading-[150%] text-[#8F999E] sm:text-base max-w-[700px]">
+          <p className="mt-6 text-sm leading-[150%] text-[#8F999E] sm:text-base lg:text-[17px] max-w-[700px]">
             A concise view of the NQB8 product ecosystem and the layers each product strengthens.
           </p>
         </FadeInView>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {topRow.map((product, i) => (
             <FadeInView key={product.name} delay={i * 0.08}>
               <ProductCard product={product} />
@@ -33,7 +33,7 @@ export function Products() {
           ))}
         </div>
 
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-4 grid gap-4 sm:mt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
           {bottomRow.map((product, i) => (
             <FadeInView key={product.name} delay={0.24 + i * 0.08}>
               <ProductCard product={product} />

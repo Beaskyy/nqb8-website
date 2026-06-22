@@ -26,15 +26,15 @@ export function ContactSection() {
     <section className="bg-[#060708] pt-20 pb-16 lg:pt-[96px] lg:pb-[80px]">
       <Container>
         <FadeInView>
-          <h1 className="font-heading text-[48px] font-extrabold leading-[104%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[44px] lg:text-[64px]">
+          <h1 className="font-heading text-3xl font-extrabold leading-[104%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[44px] lg:text-[64px]">
             Partner with NQB8
           </h1>
-          <p className="mt-7 max-w-[510px] text-[18px] leading-[150%] text-[#8F999E]">
+          <p className="mt-5 max-w-[510px] text-base leading-[150%] text-[#8F999E] sm:text-[18px] sm:mt-7">
             Institutional partnerships, platform collaborations, and strategic conversations.
           </p>
         </FadeInView>
 
-        <div className="mt-12 grid gap-7 lg:grid-cols-[1fr_1.6fr]">
+        <div className="mt-8 grid gap-5 sm:mt-12 sm:gap-7 lg:grid-cols-[1fr_1.6fr]">
           {/* Contact info card */}
           <FadeInView>
             <div className="rounded-[18px] border border-[#333B40BF] bg-[#0E0F11] p-7 space-y-[25px] h-fit">
@@ -61,7 +61,7 @@ export function ContactSection() {
           <FadeInView delay={0.1}>
             <form
               onSubmit={handleSubmit}
-              className="rounded-[18px] border border-[#333B40BF] bg-[#0E0F11] p-8 space-y-5"
+              className="rounded-[18px] border border-[#333B40BF] bg-[#0E0F11] p-5 space-y-5 sm:p-8"
             >
               <div>
                 <label className="block text-xs text-[#8F999E] font-semibold mb-3" htmlFor="name">

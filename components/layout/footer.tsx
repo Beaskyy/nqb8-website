@@ -6,9 +6,9 @@ export function Footer() {
   return (
     <footer className="bg-[#060708] border-t border-[#333B40B2] py-10 lg:py-[56px]">
       <Container>
-        <div className="grid gap-[60px] lg:grid-cols-5 lg:gap-[120px]">
+        <div className="grid gap-10 sm:gap-[60px] lg:grid-cols-5 lg:gap-[120px]">
           <div className="flex flex-col col-span-2">
-            <Link href="/" className="text-[32px] font-bold text-[#F0F2ED] tracking-[-0.4px]">
+            <Link href="/" className="text-2xl font-bold text-[#F0F2ED] tracking-[-0.4px] sm:text-[32px]">
               NQB8
             </Link>
             <p className="mt-4 max-w-[360px] text-[13px] leading-[138%] text-[#8F999E] lg:text-[15px]">

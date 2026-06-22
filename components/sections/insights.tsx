@@ -15,7 +15,7 @@ export function Insights() {
           <SectionLabel className="text-[13px] font-semibold uppercase tracking-[8%] text-[#0A89FF]">
             INSIGHTS
           </SectionLabel>
-          <h2 className="font-heading mt-6 text-[44px] font-extrabold leading-[134%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
+          <h2 className="font-heading mt-6 text-3xl font-extrabold leading-[134%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] lg:text-[48px] max-w-[760px]">
             Perspectives on systems<br className="hidden lg:block" /> that matter.
           </h2>
           <p className="mt-6 lg:text-[17px] text-sm leading-[150%] text-[#8F999E] sm:text-base max-w-[650px]">
@@ -23,7 +23,7 @@ export function Insights() {
           </p>
         </FadeInView>
 
-        <div className="mt-16 grid gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:mt-16 sm:grid-cols-2 sm:gap-[18px] lg:grid-cols-3">
           {insightsItems.map((item, i) => (
             <FadeInView key={item.title} delay={i * 0.1} className="h-full">
               <Link href="/insights/example" className="block h-full outline-none focus-visible:ring-2 focus-visible:ring-[#0A89FF] rounded-[18px]">
