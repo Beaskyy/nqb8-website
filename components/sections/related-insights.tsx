@@ -14,17 +14,17 @@ export function RelatedInsights() {
     <section className="bg-[#060708] pb-20 lg:pb-[120px]">
       <Container>
         <FadeInView>
-          <div className="border-t border-[#333B408C] pt-20">
+          <div className="border-t border-[#333B408C] pt-12 lg:pt-20">
             <SectionLabel className="text-[11px] font-bold uppercase tracking-[0.88px] text-[#0A89FF]">
               RELATED
             </SectionLabel>
-            <h2 className="font-heading mt-[15px] text-[32px] font-bold leading-[100%] text-[#F0F2ED]">
+            <h2 className="font-heading mt-[15px] text-2xl font-bold leading-[100%] text-[#F0F2ED] sm:text-[32px]">
               More from NQB8 Insights
             </h2>
           </div>
         </FadeInView>
 
-        <div className="mt-[27px] grid gap-[22px] sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 grid gap-4 sm:mt-[27px] sm:grid-cols-2 sm:gap-[22px] lg:grid-cols-3">
           {relatedItems.map((item, i) => (
             <FadeInView key={item.title} delay={i * 0.1} className="h-full">
               <article
@@ -37,7 +37,7 @@ export function RelatedInsights() {
                   <p className="text-[11px] font-semibold uppercase tracking-[8%] text-[#8F999E] mb-3">
                     {item.category}
                   </p>
-                  <p className="text-[23px] tracking-[-0.4%] leading-[130%] font-bold text-[#F0F2ED]">
+                  <p className="text-lg tracking-[-0.4%] leading-[130%] font-bold text-[#F0F2ED] sm:text-[23px]">
                     {item.title}
                   </p>
                 </div>

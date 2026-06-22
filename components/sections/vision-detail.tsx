@@ -15,7 +15,7 @@ export function VisionDetail() {
             <SectionLabel className="text-[13px] font-semibold uppercase tracking-[8%] text-[#0A89FF]">
               VISION
             </SectionLabel>
-            <h2 className="font-heading mt-6 text-[44px] font-extrabold leading-[120%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] max-w-[650px]">
+            <h2 className="font-heading mt-6 text-3xl font-extrabold leading-[120%] tracking-[-1.2%] text-[#F0F2ED] sm:text-[40px] max-w-[650px]">
               Future-facing infrastructure, grounded in real markets.
             </h2>
             <p className="mt-6 lg:text-[17px] text-sm leading-[150%] text-[#8F999E] sm:text-base max-w-[500px]">
@@ -34,7 +34,7 @@ export function VisionDetail() {
           </FadeInView>
 
           <FadeInView direction="left" delay={0.15}>
-            <div className="relative h-[360px] w-full overflow-hidden rounded-[24px] border border-white/[0.08]">
+            <div className="relative h-[260px] sm:h-[360px] w-full overflow-hidden rounded-[24px] border border-white/[0.08]">
               <Image
                 src="/images/vision.png"
                 alt="Future-facing infrastructure"
