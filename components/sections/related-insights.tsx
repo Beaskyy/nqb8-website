@@ -14,35 +14,35 @@ export function RelatedInsights() {
     <section className="bg-[#060708] pb-20 lg:pb-[120px]">
       <Container>
         <FadeInView>
-          <div className="border-t border-[#333B408C] pt-16">
-            <SectionLabel className="text-[11px] font-bold uppercase tracking-[8%] text-[#0A89FF]">
+          <div className="border-t border-[#333B408C] pt-20">
+            <SectionLabel className="text-[11px] font-bold uppercase tracking-[0.88px] text-[#0A89FF]">
               RELATED
             </SectionLabel>
-            <h2 className="font-heading mt-4 text-[32px] font-bold leading-[120%] tracking-[-1%] text-[#F0F2ED] sm:text-[36px]">
+            <h2 className="font-heading mt-[15px] text-[32px] font-bold leading-[100%] text-[#F0F2ED]">
               More from NQB8 Insights
             </h2>
           </div>
         </FadeInView>
 
-        <div className="mt-12 grid gap-[18px] sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-[27px] grid gap-[22px] sm:grid-cols-2 lg:grid-cols-3">
           {relatedItems.map((item, i) => (
             <FadeInView key={item.title} delay={i * 0.1} className="h-full">
               <article
                 className={cn(
-                  "flex flex-col h-full rounded-[18px] bg-[#0E0F11] p-6 lg:p-8 transition-all duration-300",
+                  "flex flex-col gap-4 h-full rounded-[18px] bg-[#0E0F11] p-6 lg:p-7 transition-all duration-300",
                   "hover:bg-[#151619]"
                 )}
               >
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[8%] text-[#8F999E] mb-3">
+                  <p className="text-[11px] font-semibold uppercase tracking-[8%] text-[#8F999E] mb-3">
                     {item.category}
                   </p>
-                  <h3 className="font-heading text-[18px] tracking-[-0.4%] leading-[130%] font-bold text-[#F0F2ED]">
+                  <p className="text-[23px] tracking-[-0.4%] leading-[130%] font-bold text-[#F0F2ED]">
                     {item.title}
-                  </h3>
+                  </p>
                 </div>
-                <div className="mt-auto pt-8">
-                  <p className="text-[12px] text-[#8F999E]">
+                <div>
+                  <p className="text-sm text-[#8F999E]">
                     {item.readTime} · {item.year}
                   </p>
                 </div>
